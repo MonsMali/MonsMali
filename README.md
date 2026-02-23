@@ -2,13 +2,13 @@
 
 **AI Agent Engineer | MSc Business Intelligence**
 
-I design and ship AI agents that connect natural-language interfaces to complex operational backends. My focus is on production systems — intent classification, structured command execution, multi-turn conversation management, and LLM orchestration with cost-aware routing.
+I design and ship AI agents that connect natural-language interfaces to complex operational backends. My focus is on production systems: intent classification, structured command execution, multi-turn conversation management, and LLM orchestration with cost-aware routing.
 
 ---
 
 ## Featured: Source Check
 
-A bilingual (EN/PT) fact-checking platform that verifies political claims against primary documents — official records, court filings, and government data. Every source is linked. No editorial opinion, just documents.
+A bilingual (EN/PT) fact-checking platform that verifies political claims against primary documents: official records, court filings, and government data. Every source is linked. No editorial opinion, just documents.
 
 - Built with **Astro**, deployed on **Cloudflare Pages**
 - Automated weekly newsletters via **Make.com** + **MailerLite** (RSS-driven campaign creation and scheduling)
@@ -20,19 +20,22 @@ A bilingual (EN/PT) fact-checking platform that verifies political claims agains
 
 ## What I Build
 
-**Conversational AI Agents for Operations**
+### Conversational AI Agents for Operations
+
 - Multi-step task execution through natural language (room assignments, report generation, data queries)
 - Intent classification pipelines with confidence-based routing
 - Modular service architectures: session management, command validation, knowledge retrieval
 - Multilingual support with date/locale-aware parameter handling
 
-**LLM Orchestration & RAG**
+### LLM Orchestration & RAG
+
 - Model routing across providers (OpenRouter, local models, Claude)
 - Retrieval-Augmented Generation with Chroma/FAISS over internal documentation
 - Prompt engineering for structured JSON extraction from LLM responses
 - Cost optimization: local models for classification, larger models for generation
 
-**Report & Data Pipelines**
+### Report & Data Pipelines
+
 - Automated report execution with parameter resolution and PDF generation
 - Caching strategies for API-heavy workflows
 - Property-level analytics and strategic recommendations
@@ -41,14 +44,16 @@ A bilingual (EN/PT) fact-checking platform that verifies political claims agains
 
 ## Tech Stack
 
-Languages:      Python, TypeScript
-Frameworks:     FastAPI, Pydantic, Streamlit, Astro
-LLM:            OpenRouter, Claude, Llama 3.2, LangChain
-RAG:            Chroma, FAISS
-Infrastructure: Docker, Docker Compose, GitLab CI/CD, Cloudflare Pages
-Databases:      SQL Server, PostgreSQL
-Automation:     Make.com, MailerLite, RSS pipelines
-Other:          Structured logging, async Python, MCP tooling
+| Category       | Tools                                                    |
+|----------------|----------------------------------------------------------|
+| Languages      | Python, TypeScript                                       |
+| Frameworks     | FastAPI, Pydantic, Streamlit, Astro                      |
+| LLM            | OpenRouter, Claude, Llama 3.2, LangChain                 |
+| RAG            | Chroma, FAISS                                            |
+| Infrastructure | Docker, Docker Compose, GitLab CI/CD, Cloudflare Pages   |
+| Databases      | SQL Server, PostgreSQL                                   |
+| Automation     | Make.com, MailerLite, RSS pipelines                      |
+| Other          | Structured logging, async Python, MCP tooling            |
 
 ---
 
@@ -75,7 +80,7 @@ Other:          Structured logging, async Python, MCP tooling
 
 ## Recent Wins
 
-- Launched Source Check — bilingual fact-checking platform with automated newsletter pipelines
+- Launched Source Check: bilingual fact-checking platform with automated newsletter pipelines
 - Implemented Reporting + Group agents with multi-property awareness
 - Documented end-to-end MCP/RAG workflow and testing playbooks
 - Built demo tooling (Streamlit + vector store + translation helpers) to validate agent experience
