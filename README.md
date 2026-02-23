@@ -46,9 +46,9 @@ A bilingual (EN/PT) fact-checking platform that verifies political claims agains
 
 | Category       | Tools                                                    |
 |----------------|----------------------------------------------------------|
-| Languages      | Python, TypeScript                                       |
+| Languages      | Python, TypeScript, R                                    |
 | Frameworks     | FastAPI, Pydantic, Streamlit, Astro                      |
-| LLM            | OpenRouter, Claude, Llama 3.2, LangChain                 |
+| LLM            | OpenRouter, Claude, Llama 3.2, LangChain, HuggingFace    |
 | RAG            | Chroma, FAISS                                            |
 | Infrastructure | Docker, Docker Compose, GitLab CI/CD, Cloudflare Pages   |
 | Databases      | SQL Server, PostgreSQL                                   |
