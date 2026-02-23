@@ -83,11 +83,11 @@ Built a temporal validation framework for predicting professional League of Lege
 | Repository | Description |
 |---|---|
 | [ForThePeople](https://github.com/MonsMali/ForThePeople) | Bilingual fact-checking platform — verifies political claims against primary source documents |
+| [lol-match-prediction](https://github.com/MonsMali/lol-match-prediction) | MSc thesis — temporal validation framework for esports match prediction (82.97% AUC-ROC) |
 | [wheel-of-luck-FITUR2026](https://github.com/MonsMali/wheel-of-luck-FITUR2026) | Gamified engagement app for FITUR 2026 |
 | [cmo_quiz](https://github.com/MonsMali/cmo_quiz) | Interactive quiz platform for events |
 | [bingo-familia](https://github.com/MonsMali/bingo-familia) | Casual multiplayer bingo game |
 | [Football-top-5-leagues-player-wage-prediction](https://github.com/MonsMali/Football-top-5-leagues-player-wage-prediction) | ML wage prediction for European football |
-| [lol-match-prediction](https://github.com/MonsMali/lol-match-prediction) | Match outcome prediction model for League of Legends |
 
 ---
 
