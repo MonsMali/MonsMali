@@ -42,6 +42,19 @@ A bilingual (EN/PT) fact-checking platform that verifies political claims agains
 
 ---
 
+## MSc Thesis: Predicting Professional Esports Matches
+
+Built a temporal validation framework for predicting professional League of Legends match outcomes using 37,502 matches across four major leagues (2014–2024).
+
+- **82.97% AUC-ROC** with Logistic Regression outperforming ensemble methods — validating that feature quality beats model complexity
+- **33 engineered features** capturing meta evolution, team dynamics, and strategic factors using only pre-match data (zero leakage)
+- **3 novel validation strategies** including Stratified Temporal Split to address intra-year meta bias
+- Frameworks: scikit-learn, XGBoost, LightGBM, CatBoost, Optuna
+
+[View Project](https://github.com/MonsMali/lol-match-prediction)
+
+---
+
 ## Tech Stack
 
 | Category       | Tools                                                    |
